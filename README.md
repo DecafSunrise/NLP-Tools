@@ -4,17 +4,32 @@ A collection of tools, tips and tricks to conduct common NLP tasks. Some of this
 
 ## Goals
 - Scalable NER
+- Scalable Text Similarity Detection
+    - Getting new stopwords, or stop *phrases* from your body of text.
+    - Ideally based on levenshtein distance, or percent similarity of word tokens.
+    - *Probably worth researching how plagarism detection works when developing this"
 - Training pipeline for SpaCy models, to extend NER
+- Topic Modeling
+    - LDA or LSA for grouping text documents
+- Abstractive Summarization
+    - There are two kinds of summarization: *Extractive*, and *Abstractive*. 
+    - Extractive summaries are a collection of the most relevant sentences from a body of text
+        - AutoTLDR is an exmaple of extractive summarization. http://autotldr.io/ 
+    - Abstractive summaries synthesize new output from the original body of text.
+        - Google Research's Pegasus model is the current state of the art for abstractive summarization. 
 - Dependency Parsing for Information Extraction
     - End goal would be to build/extend a Knowledge Graph from semi- or unstructured data
     - "Hearst Patterns" are a good thing to look up to understand this.
 - Interoperability with a Semantic Annotation Platform (Doccano, Label Studio, Explosion's Prodigy, etc)
     - Doccano specifically can import/export from a JSON-like format, which you could use for SpaCy training.
 
+- Question-answering Natural Language Inference
+    - The ability for a model like BERT to answer simple questions based on input text.
+
 ## Limitations/Scoping
 - I have no intention to build this into a python library. This is just a repo of reference syntax to apply later.
 
-Common packages you'd want to run these:
+## Requirements:
 - **Pandas**
     - Famous Excel/CSV reader for "small data"
 - **SpaCy**
