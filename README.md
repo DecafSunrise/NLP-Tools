@@ -7,7 +7,7 @@ A collection of tools, tips and tricks to conduct common NLP tasks. Some of this
 - Scalable Text Similarity Detection
     - Getting new stopwords, or stop *phrases* from your body of text.
     - Ideally based on levenshtein distance, or percent similarity of word tokens.
-    - *Probably worth researching how plagarism detection works when developing this"
+    - *Probably worth researching how plagarism detection works when developing this*
 - Training pipeline for SpaCy models, to extend NER
 - Topic Modeling
     - LDA or LSA for grouping text documents
