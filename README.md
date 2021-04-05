@@ -22,7 +22,6 @@ A collection of tools, tips and tricks to conduct common NLP tasks. Some of this
     - "Hearst Patterns" are a good thing to look up to understand this.
 - Interoperability with a Semantic Annotation Platform (Doccano, Label Studio, Explosion's Prodigy, etc)
     - Doccano specifically can import/export from a JSON-like format, which you could use for SpaCy training.
-
 - Question-answering Natural Language Inference
     - The ability for a model like BERT to answer simple questions based on input text.
 
