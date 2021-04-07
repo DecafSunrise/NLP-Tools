@@ -54,5 +54,12 @@ A collection of tools, tips and tricks to conduct common NLP tasks. Some of this
     - Allows you to check string similarity based on levenshtein (edit) distance
     - RapidFuzz is way faster, but may require C++ prereqs
 
+## References
+
+- **Papers with Code**
+    - https://paperswithcode.com/area/natural-language-processing
+    - Really good job of providing tasks and subtasks, with papers, and notation of SOTA.
+
+
 
 More to come!
