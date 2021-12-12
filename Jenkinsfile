@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
-        mail(subject: 'Jenkins NLP-Tools Test', body: 'Something something Jenkins', from: 'Jenkins@IneedADomain.com')
+        mail(subject: 'Jenkins NLP-Tools Test', body: 'Something something Jenkins', from: 'Jenkins@IneedADomain.com', to: 'danny.cardella@gmail.com')
       }
     }
 
